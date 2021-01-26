@@ -1,0 +1,219 @@
+@font-face {
+  font-family: "Gilroy";
+  src: "./fonts/gilroy-bold.ttf";
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: "./fonts/gilroy-medium.ttf";
+  font-weight: 400;
+}
+
+* {box-sizing: border-box;}
+
+body {
+  font-family: "Gilroy", "Arial", sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+.header-list {
+  list-style-type: none; /* Убираем маркеры */
+  border-bottom: 1px solid #828282;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 33px;
+  margin-bottom: 0px;
+  padding-bottom: 33px;
+}
+
+.header-link {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: #828282;
+  font-size: 18px;
+}
+
+.link-active {
+  color: #070707;
+}
+
+.container {
+  width: 945px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.short-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.name-head {
+  font-size: 47px;
+  margin-top: 39px;
+  margin-bottom: 0;
+  color: #070707;
+}
+
+.block-content {
+  display: block;
+}
+
+.resume {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+  color: #070707;
+}
+
+.lang-change {
+  font-size: 16px;
+  color: #828282;
+  transform: rotate(-90deg);
+  transform-origin: 50% -110%;
+}
+
+.lang-color {
+  color: #070707;
+}
+
+.main-photo {
+  margin-top: 49px;
+}
+
+.about-me {
+  background-color: #F6F6F6;
+  text-align: center;
+  margin-top: 104px;
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.aboutme-head {
+  color: #070707;
+  font-size: 34px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.aboutme-text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.aboutme-margin1 {
+  margin-bottom: 40px;
+  display: block;
+}
+
+.aboutme-margin2 {
+  margin-bottom: 40px;
+  display: block;
+}
+
+.skills-head {
+  text-align: center;
+  color: #070707;
+  font-size: 34px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.skills-text {
+  text-align: center;
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.programs {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 83px;
+  margin-bottom: 100px;
+}
+
+.portfolio {
+  background-color: #F6F6F6;
+  padding-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.portfolio-head {
+  color: #070707;
+  font-size: 34px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.link-center {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 99px;
+  color: #070707;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.container-footer {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.contacts-head {
+  color: #070707;
+  margin-top: 114px;
+  font-size: 34px;
+}
+
+.contacts-text {
+  font-size: 18px;
+  color: #070707;
+  font-weight: 400;
+}
+
+.button-footer {
+  display: inline-block;
+  background: #070707;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 85px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.last-text {
+  margin-top: 45px;
+  margin-bottom: 123px;
+  color: #828282;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
